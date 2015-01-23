@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC10A8A2-88ED-4F89-BBAE-34F8CAEB641E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SlowMoPhotography</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D1F579D7F0A90164C0E1FADE83A9235521A892E0</key>
+		<string>https://github.com/VersionMismatch/SlowMoPhotography.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SlowMoPhotography.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D1F579D7F0A90164C0E1FADE83A9235521A892E0</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/VersionMismatch/SlowMoPhotography.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D1F579D7F0A90164C0E1FADE83A9235521A892E0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D1F579D7F0A90164C0E1FADE83A9235521A892E0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SlowMoPhotography</string>
+		</dict>
+	</array>
+</dict>
+</plist>
