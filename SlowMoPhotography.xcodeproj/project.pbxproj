@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CC4527E1A71CEDF00F1EE68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4527D1A71CEDF00F1EE68 /* main.m */; };
+		9CC452811A71CEDF00F1EE68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC452801A71CEDF00F1EE68 /* AppDelegate.m */; };
+		9CC452841A71CEDF00F1EE68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC452831A71CEDF00F1EE68 /* ViewController.m */; };
+		9CC452871A71CEDF00F1EE68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC452851A71CEDF00F1EE68 /* Main.storyboard */; };
+		9CC452891A71CEDF00F1EE68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC452881A71CEDF00F1EE68 /* Images.xcassets */; };
+		9CC4528C1A71CEDF00F1EE68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4528A1A71CEDF00F1EE68 /* LaunchScreen.xib */; };
+		9CC452981A71CEE000F1EE68 /* SlowMoPhotographyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC452971A71CEE000F1EE68 /* SlowMoPhotographyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CC452921A71CEE000F1EE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CC452701A71CEDF00F1EE68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CC452771A71CEDF00F1EE68;
+			remoteInfo = SlowMoPhotography;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CC452781A71CEDF00F1EE68 /* SlowMoPhotography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlowMoPhotography.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC4527C1A71CEDF00F1EE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC4527D1A71CEDF00F1EE68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CC4527F1A71CEDF00F1EE68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CC452801A71CEDF00F1EE68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CC452821A71CEDF00F1EE68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CC452831A71CEDF00F1EE68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CC452861A71CEDF00F1EE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CC452881A71CEDF00F1EE68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CC4528B1A71CEDF00F1EE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9CC452911A71CEE000F1EE68 /* SlowMoPhotographyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlowMoPhotographyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC452961A71CEE000F1EE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC452971A71CEE000F1EE68 /* SlowMoPhotographyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowMoPhotographyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CC452751A71CEDF00F1EE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC4528E1A71CEE000F1EE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CC4526F1A71CEDF00F1EE68 = {
+			isa = PBXGroup;
+			children = (
+				9CC4527A1A71CEDF00F1EE68 /* SlowMoPhotography */,
+				9CC452941A71CEE000F1EE68 /* SlowMoPhotographyTests */,
+				9CC452791A71CEDF00F1EE68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CC452791A71CEDF00F1EE68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CC452781A71CEDF00F1EE68 /* SlowMoPhotography.app */,
+				9CC452911A71CEE000F1EE68 /* SlowMoPhotographyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CC4527A1A71CEDF00F1EE68 /* SlowMoPhotography */ = {
+			isa = PBXGroup;
+			children = (
+				9CC4527F1A71CEDF00F1EE68 /* AppDelegate.h */,
+				9CC452801A71CEDF00F1EE68 /* AppDelegate.m */,
+				9CC452821A71CEDF00F1EE68 /* ViewController.h */,
+				9CC452831A71CEDF00F1EE68 /* ViewController.m */,
+				9CC452851A71CEDF00F1EE68 /* Main.storyboard */,
+				9CC452881A71CEDF00F1EE68 /* Images.xcassets */,
+				9CC4528A1A71CEDF00F1EE68 /* LaunchScreen.xib */,
+				9CC4527B1A71CEDF00F1EE68 /* Supporting Files */,
+			);
+			path = SlowMoPhotography;
+			sourceTree = "<group>";
+		};
+		9CC4527B1A71CEDF00F1EE68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CC4527C1A71CEDF00F1EE68 /* Info.plist */,
+				9CC4527D1A71CEDF00F1EE68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CC452941A71CEE000F1EE68 /* SlowMoPhotographyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CC452971A71CEE000F1EE68 /* SlowMoPhotographyTests.m */,
+				9CC452951A71CEE000F1EE68 /* Supporting Files */,
+			);
+			path = SlowMoPhotographyTests;
+			sourceTree = "<group>";
+		};
+		9CC452951A71CEE000F1EE68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CC452961A71CEE000F1EE68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CC452771A71CEDF00F1EE68 /* SlowMoPhotography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC4529B1A71CEE000F1EE68 /* Build configuration list for PBXNativeTarget "SlowMoPhotography" */;
+			buildPhases = (
+				9CC452741A71CEDF00F1EE68 /* Sources */,
+				9CC452751A71CEDF00F1EE68 /* Frameworks */,
+				9CC452761A71CEDF00F1EE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlowMoPhotography;
+			productName = SlowMoPhotography;
+			productReference = 9CC452781A71CEDF00F1EE68 /* SlowMoPhotography.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CC452901A71CEE000F1EE68 /* SlowMoPhotographyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC4529E1A71CEE000F1EE68 /* Build configuration list for PBXNativeTarget "SlowMoPhotographyTests" */;
+			buildPhases = (
+				9CC4528D1A71CEE000F1EE68 /* Sources */,
+				9CC4528E1A71CEE000F1EE68 /* Frameworks */,
+				9CC4528F1A71CEE000F1EE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CC452931A71CEE000F1EE68 /* PBXTargetDependency */,
+			);
+			name = SlowMoPhotographyTests;
+			productName = SlowMoPhotographyTests;
+			productReference = 9CC452911A71CEE000F1EE68 /* SlowMoPhotographyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CC452701A71CEDF00F1EE68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = VersionMismatch;
+				TargetAttributes = {
+					9CC452771A71CEDF00F1EE68 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9CC452901A71CEE000F1EE68 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9CC452771A71CEDF00F1EE68;
+					};
+				};
+			};
+			buildConfigurationList = 9CC452731A71CEDF00F1EE68 /* Build configuration list for PBXProject "SlowMoPhotography" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CC4526F1A71CEDF00F1EE68;
+			productRefGroup = 9CC452791A71CEDF00F1EE68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CC452771A71CEDF00F1EE68 /* SlowMoPhotography */,
+				9CC452901A71CEE000F1EE68 /* SlowMoPhotographyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CC452761A71CEDF00F1EE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC452871A71CEDF00F1EE68 /* Main.storyboard in Resources */,
+				9CC4528C1A71CEDF00F1EE68 /* LaunchScreen.xib in Resources */,
+				9CC452891A71CEDF00F1EE68 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC4528F1A71CEE000F1EE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CC452741A71CEDF00F1EE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC452841A71CEDF00F1EE68 /* ViewController.m in Sources */,
+				9CC452811A71CEDF00F1EE68 /* AppDelegate.m in Sources */,
+				9CC4527E1A71CEDF00F1EE68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC4528D1A71CEE000F1EE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC452981A71CEE000F1EE68 /* SlowMoPhotographyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CC452931A71CEE000F1EE68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CC452771A71CEDF00F1EE68 /* SlowMoPhotography */;
+			targetProxy = 9CC452921A71CEE000F1EE68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CC452851A71CEDF00F1EE68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC452861A71CEDF00F1EE68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CC4528A1A71CEDF00F1EE68 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC4528B1A71CEDF00F1EE68 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CC452991A71CEE000F1EE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CC4529A1A71CEE000F1EE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CC4529C1A71CEE000F1EE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlowMoPhotography/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CC4529D1A71CEE000F1EE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlowMoPhotography/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9CC4529F1A71CEE000F1EE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlowMoPhotographyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlowMoPhotography.app/SlowMoPhotography";
+			};
+			name = Debug;
+		};
+		9CC452A01A71CEE000F1EE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlowMoPhotographyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlowMoPhotography.app/SlowMoPhotography";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CC452731A71CEDF00F1EE68 /* Build configuration list for PBXProject "SlowMoPhotography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC452991A71CEE000F1EE68 /* Debug */,
+				9CC4529A1A71CEE000F1EE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC4529B1A71CEE000F1EE68 /* Build configuration list for PBXNativeTarget "SlowMoPhotography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC4529C1A71CEE000F1EE68 /* Debug */,
+				9CC4529D1A71CEE000F1EE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CC4529E1A71CEE000F1EE68 /* Build configuration list for PBXNativeTarget "SlowMoPhotographyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC4529F1A71CEE000F1EE68 /* Debug */,
+				9CC452A01A71CEE000F1EE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CC452701A71CEDF00F1EE68 /* Project object */;
+}
